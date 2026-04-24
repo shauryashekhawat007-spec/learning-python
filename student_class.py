@@ -311,7 +311,7 @@ class passwordchecker:
         if len(password) < 1:
             return
 
-        elif len(password)>= 8: 
+        elif len(password) <= 8: 
             print("INVALID make your password strong")
 
         else:
