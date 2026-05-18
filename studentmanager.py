@@ -50,3 +50,10 @@ class Studentmanager:
         countstudents = len(self.students)
         print("Total students: ", countstudents)
 
+    def delete_all_students(self):
+        self.students.clear()
+
+manager = Studentmanager
+print(manager.students)   
+        self.students.clear()
+
